@@ -1,0 +1,27 @@
+.gallery {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.gallery-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.05);
+}
+
+.lg-sub-html h4 {
+  color: #fff;
+  /* Змініть на потрібний колір тексту */
+  padding: 10px;
+  /* Додайте відступи навколо тексту */
+  text-align: center;
+}
